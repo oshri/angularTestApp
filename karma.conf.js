@@ -19,11 +19,7 @@ module.exports = function(config){
 			'bower_components/angular/angular.js',
 			'bower_components/angular-mocks/angular-mocks.js',
 			'bower_components/chai/chai.js',
-			'app/services/*.js',
-			'app/filters/*.js',
-			'app/directives/*.js',
-			'app/controllers/*.js',
-			'app/main.mdl.js',
+			'app/**/*.js',
 			'test/*.js'
 		]
 	});
