@@ -1,0 +1,21 @@
+{
+  "name": "angulartest",
+  "version": "0.0.0",
+  "authors": [
+    "Oshri Kdoshim <cms.x.seo@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "mocha": "~2.2.5",
+    "chai": "~2.3.0",
+    "angular-mocks": "~1.4.0"
+  }
+}

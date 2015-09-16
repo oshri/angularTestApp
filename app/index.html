@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Test App</title>
+	<script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app="testApp">
+	<div ng-controller="contactsCtrl">
+		<div ng-repeat="contact in contacts">
+			{{contact.name}}
+			<avatar name="contact.name"></avatar>
+		</div>
+	</div>
+	<script src="js/main.mdl.js"></script>
+	
+	<script src="js/services/services.mdl.js"></script>
+	<script src="js/services/contact.srv.js"></script>
+
+	<script src="js/controllers/controllers.mdl.js"></script>
+	<script src="js/controllers/contacts.ctrl.js"></script>
+
+	<script src="js/filtters/filtters.mdl.js"></script>
+	<script src="js/filtters/proper.fil.js"></script>
+
+	<script src="js/directives/directives.mdl.js"></script>
+	<script src="js/directives/avatar.dir.js"></script>
+
+</body>
+</html>
